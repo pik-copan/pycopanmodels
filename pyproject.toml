@@ -17,7 +17,9 @@ dependencies = [
     "profilehooks",
     "pytest-cov>=2.5.1",
     "numba",
-    "pycopancore @ git+https://github.com/pik-copan/pycopancore.git"
+    "pycopancore @ git+https://github.com/pik-copan/pycopancore.git",
+    "matplotlib>=3.11.0",
+    "plotly>=6.8.0",
 ]
 
 [tool.setuptools.packages.find]

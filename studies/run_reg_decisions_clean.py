@@ -10,7 +10,7 @@ import os
 # os.chdir("/p/projects/copan/users/lschwarz/core/pycopancore")
 os.chdir("/p/projects/open/Jannes/copan_core/pycopancore")
 
-import pycopancore.models.inseeds_social as M
+from pycopan_more.models import inseeds_social as M
 
 # from pycopancore.models import inseeds_social as M
 

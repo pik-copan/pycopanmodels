@@ -7,11 +7,11 @@
 #
 # URL: <http://www.pik-potsdam.de/copan/software>
 
-from .... import master_data_model as D
-from ....model_components.lpjml import interface as L
-from ....model_components.base import interface as B
-from .... import Variable
-from .... import Event
+from pycopancore.data_model import master_data_model as D
+from pycopancore.model_components.lpjml import interface as L
+from pycopancore.model_components.base import interface as B
+from pycopancore.data_model import Variable
+from pycopancore.process_types import Event
 
 import numpy as np
 from numpy.random import exponential, uniform

@@ -8,8 +8,8 @@
 # URL: <http://www.pik-potsdam.de/copan/software>
 
 # all models must use the base component
-from .... import base
-from ....model_components import lpjml as lpj
+from pycopancore.model_components import base
+from pycopancore.model_components import lpjml as lpj
 from . import other_component as other
 
 

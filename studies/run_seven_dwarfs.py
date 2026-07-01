@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import plotly.offline as py
 import plotly.graph_objs as go
 
-import pycopancore.models.seven_dwarfs as M
+from pycopan_more.models import seven_dwarfs as M
 from pycopancore.runners.runner import Runner
 
 

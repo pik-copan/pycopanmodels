@@ -4,8 +4,8 @@ from time import time
 from numpy import random, array
 import numpy as np
 
-import pycopancore.models.example1 as M
-from pycopancore import master_data_model as D
+from pycopan_more.models import example1 as M
+from pycopancore.data_model import master_data_model as D
 from pycopancore.runners import Runner
 import pycopancore as pcc
 

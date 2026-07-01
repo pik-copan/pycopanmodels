@@ -9,14 +9,14 @@
 import os
 os.chdir("/p/projects/copan/users/lschwarz/core/pycopancore")
 
-import pycopancore.models.inseeds_social as M
+from pycopan_more.models import inseeds_social as M
 
 # from pycopancore.models import inseeds_social as M
 
 # standard runner for simulating any model:
 from pycopancore.runners.runner import Runner
 
-from pycopancore import master_data_model as D  # to be able to specify variables with physical units
+from pycopancore.data_model import master_data_model as D  # to be able to specify variables with physical units
 
 import numpy as np  # which is usually needed
 from numpy.random import choice, uniform  # to generate random initial conditions

@@ -16,9 +16,9 @@ import random
 # import networkx as nx
 import numpy as np
 # import sys
-import pycopancore.models.carbon_voters_anderies_model as M
+from pycopan_more.models import carbon_voters_anderies_model as M
 # import pycopancore.models.only_copan_global_like_carbon_cycle as M
-from pycopancore import master_data_model as D
+from pycopancore.data_model import master_data_model as D
 from pycopancore.runners import Runner
 
 # import plotly.plotly as py

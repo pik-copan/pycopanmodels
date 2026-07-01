@@ -7,12 +7,12 @@
 #
 # URL: <http://www.pik-potsdam.de/copan/software>
  
-import pycopancore.models._testing.lpjml.lpjml_dummy as M 
+from pycopan_more.models._testing.lpjml import lpjml_dummy as M 
 
 # standard runner for simulating any model:
 from pycopancore.runners.runner import Runner
 
-from pycopancore import master_data_model as D  # to be able to specify variables with physical units
+from pycopancore.data_model import master_data_model as D  # to be able to specify variables with physical units
 
 import numpy as np  # which is usually needed
 from numpy.random import choice, uniform  # to generate random initial conditions
