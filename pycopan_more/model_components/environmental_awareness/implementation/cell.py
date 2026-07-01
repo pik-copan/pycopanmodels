@@ -12,9 +12,10 @@ then remove these instructions
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from .... import Explicit, ODE, ITE
+from pycopancore.process_types import Explicit, ODE
+from pycopancore.util import ITE
 from .. import interface as I
-from ...base import interface as B
+from pycopancore.model_components.base import interface as B
 
 class Cell (I.Cell):
     """Cell entity type mixin implementation class."""

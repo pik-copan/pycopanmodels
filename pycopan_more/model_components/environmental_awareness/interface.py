@@ -11,9 +11,9 @@
 # License: BSD 2-clause license
 
 # TODO: use variables from the master data model wherever possible:
-from ... import master_data_model as D
-from ...data_model.master_data_model import CUL, I, S, C
-from ... import Variable
+from pycopancore.data_model import master_data_model as D
+from pycopancore.data_model.master_data_model import CUL, I, S, C
+from pycopancore.data_model import Variable
 
 
 class Model (object):

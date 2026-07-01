@@ -9,8 +9,8 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from pycopancore import ODE
-from pycopancore.model_components.simple_extraction import interface as I
+from pycopancore.process_types import ODE
+from ...simple_extraction import interface as I
 
 
 class Cell(I.Cell):

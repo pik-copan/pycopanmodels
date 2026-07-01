@@ -16,8 +16,8 @@ then remove these instructions
 from .. import interface as I
 from pycopancore.model_components.base import interface as B
 import numpy
-from pycopancore import Explicit
-# from .... import master_data_model as D
+from pycopancore.process_types import Explicit
+# from pycopancore.data_model import master_data_model as D
 
 
 class World (I.World):

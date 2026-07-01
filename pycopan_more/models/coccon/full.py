@@ -7,7 +7,7 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from ... import base  # all models must use the base component
+from pycopancore.model_components import base  # all models must use the base component
 
 from ...model_components import copan_global_like_carbon_cycle \
     as cc

@@ -1,6 +1,6 @@
 import numpy as np
 
-from .... import base  # all models must use the base component
+from pycopancore.model_components import base  # all models must use the base component
 
 from . import other_component as other
 

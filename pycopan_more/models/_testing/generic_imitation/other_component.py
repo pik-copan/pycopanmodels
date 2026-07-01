@@ -1,5 +1,5 @@
-from .... import master_data_model as D
-from .... import Variable
+from pycopancore.data_model import master_data_model as D
+from pycopancore.data_model import Variable
 
 # INTERFACE:
 

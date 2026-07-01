@@ -15,7 +15,7 @@ then remove these instructions
 
 from .. import interface as I
 from pycopancore.model_components.base import interface as B
-from pycopancore import Event, Explicit
+from pycopancore.process_types import Event, Explicit
 import math
 import random
 import numpy as np

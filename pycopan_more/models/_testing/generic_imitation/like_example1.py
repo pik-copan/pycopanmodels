@@ -15,7 +15,7 @@
 
 import numpy as np
 
-from .... import base  # all models must use the base component
+from pycopancore.model_components import base  # all models must use the base component
 
 from ....model_components import copan_global_like_carbon_cycle \
     as cc

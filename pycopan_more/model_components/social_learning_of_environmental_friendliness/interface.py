@@ -13,9 +13,9 @@ remove these instructions.
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from ... import master_data_model as D
-from ...data_model.master_data_model import CUL, I
-from ... import Variable
+from pycopancore.data_model import master_data_model as D
+from pycopancore.data_model.master_data_model import CUL, I
+from pycopancore.data_model import Variable
 
 
 class Model (object):

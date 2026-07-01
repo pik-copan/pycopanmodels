@@ -17,7 +17,7 @@ from .. import interface as I
 from pycopancore.process_types import Event
 import numpy as np
 
-# from .... import master_data_model as D
+# from pycopancore.data_model import master_data_model as D
 
 
 class Cell (I.Cell):

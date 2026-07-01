@@ -14,7 +14,7 @@ then remove these instructions
 # License: BSD 2-clause license
 
 from .. import interface as I
-# from .... import master_data_model as D
+# from pycopancore.data_model import master_data_model as D
 
 
 class Cell (I.Cell):

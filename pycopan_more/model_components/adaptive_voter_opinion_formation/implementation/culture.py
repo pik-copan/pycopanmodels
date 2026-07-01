@@ -14,10 +14,10 @@ then remove these instructions
 # License: BSD 2-clause license
 
 from .. import interface as I
-#from .... import master_data_model as D
-from .... import Step
+#from pycopancore.data_model import master_data_model as D
+from pycopancore.process_types import Step
 
-from ....runners import Hooks
+from pycopancore.runners import Hooks
 
 # from blist import sortedlist  # more performant for large list modifications
 

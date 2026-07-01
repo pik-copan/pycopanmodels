@@ -14,8 +14,8 @@ then remove these instructions
 # License: BSD 2-clause license
 
 from .. import interface as I
-# from .... import master_data_model as D
-from .... import Event
+# from pycopancore.data_model import master_data_model as D
+from pycopancore.process_types import Event
 from numpy import array
 from numpy.random import uniform
 

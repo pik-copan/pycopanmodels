@@ -12,11 +12,12 @@ then remove these instructions
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from .... import Explicit, ITE
+from pycopancore.process_types import Explicit
+from pycopancore.util import ITE
 from .. import interface as I
-from ...base import interface as B
+from pycopancore.model_components.base import interface as B
 
-# from .... import master_data_model as D
+# from pycopancore.data_model import master_data_model as D
 
 
 class SocialSystem (I.SocialSystem):

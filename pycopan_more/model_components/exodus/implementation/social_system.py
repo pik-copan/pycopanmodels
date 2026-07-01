@@ -15,8 +15,8 @@ then remove these instructions
 
 from .. import interface as I
 from pycopancore.model_components.base import interface as B
-from pycopancore import Explicit, Step
-# from .... import master_data_model as D
+from pycopancore.process_types import Explicit, Step
+# from pycopancore.data_model import master_data_model as D
 
 from scipy import stats
 import numpy as np
