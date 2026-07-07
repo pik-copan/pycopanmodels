@@ -119,7 +119,7 @@ class Individual (I.Individual):
                     migrated = True
 
             # Network is fully connected:
-            chosen_one = random.choice(self.culture.acquaintance_network.nodes())
+            chosen_one = random.choice(list(self.culture.acquaintance_network.nodes()))
             # Add event to social systems migration counter:
             self.social_system.migration_counter[0] += 1
             self.social_system.migration_counter[1].append(
