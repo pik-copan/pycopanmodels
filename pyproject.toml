@@ -20,6 +20,7 @@ dependencies = [
     "pycopancore @ git+https://github.com/pik-copan/pycopancore.git",
     "matplotlib>=3.11.0",
     "plotly>=6.8.0",
+    "networkx>=3.6.1",
 ]
 
 [tool.setuptools.packages.find]
