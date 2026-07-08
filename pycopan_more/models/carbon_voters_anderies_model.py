@@ -13,7 +13,7 @@
 #  Imports
 #
 
-from .. import base  # all models must use the base component
+from pycopancore.model_components import base  # all models must use the base component
 
 from ..model_components import adaptive_voter_opinion_formation as avof
 from ..model_components import majority_decision as md

@@ -9,8 +9,8 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from .... import Explicit, ODE
-from ...base import interface as B
+from pycopancore.process_types import Explicit, ODE
+from pycopancore.model_components.base import interface as B
 
 from .. import interface as I
 

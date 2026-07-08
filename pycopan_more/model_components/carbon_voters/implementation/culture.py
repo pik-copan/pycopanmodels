@@ -14,8 +14,8 @@ then remove these instructions
 # License: BSD 2-clause license
 
 from .. import interface as I
-# from .... import master_data_model as D
-from .... import Explicit
+# from pycopancore.data_model import master_data_model as D
+from pycopancore.process_types import Explicit
 import sympy as sp
 import random
 

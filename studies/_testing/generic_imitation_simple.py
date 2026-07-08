@@ -1,6 +1,6 @@
 """Script to run example1 model."""
 
-from pycopancore import config
+from pycopan_more.model_components import config
 config.profile = False
 
 from time import time

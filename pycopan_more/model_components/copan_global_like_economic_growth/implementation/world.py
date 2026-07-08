@@ -9,9 +9,9 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from .... import Explicit
+from pycopancore.process_types import Explicit
 from .. import interface as I
-from ...base import interface as B
+from pycopancore.model_components.base import interface as B
 
 
 class World (I.World):

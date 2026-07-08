@@ -10,9 +10,9 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from .... import Event
+from pycopancore.process_types import Event
 from .. import interface as I
-from ...base import interface as B
+from pycopancore.model_components.base import interface as B
 from numpy import inf
 from numpy.random import exponential, uniform
 

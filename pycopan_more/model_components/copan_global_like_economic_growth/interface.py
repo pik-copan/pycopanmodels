@@ -9,8 +9,8 @@
 # Contact: core@pik-potsdam.de
 # License: BSD 2-clause license
 
-from ... import master_data_model as D
-from ...data_model.master_data_model import MET, S, W
+from pycopancore.data_model import master_data_model as D
+from pycopancore.data_model.master_data_model import MET, S, W
 
 
 class Model (object):

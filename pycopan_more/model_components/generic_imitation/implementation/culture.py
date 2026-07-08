@@ -1,7 +1,7 @@
 """Culture process taxon mixing class template.
 """
 
-from .... import profile
+from profilehooks import profile
 
 """
 TODO:
@@ -24,7 +24,7 @@ from numpy import any, array, inf, sum, mean, where, zeros, exp
 from numpy.random import exponential, uniform, choice, shuffle
 from networkx import DiGraph
 
-from .... import Event
+from pycopancore.process_types import Event
 from ... import config
 from .. import interface as I
 

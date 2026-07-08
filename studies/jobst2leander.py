@@ -6,8 +6,8 @@ from time import time
 from numpy import random, array
 import numpy as np
 
-import pycopancore.models.example2 as M
-from pycopancore import master_data_model as D
+from pycopan_more.models import example2 as M
+from pycopancore.data_model import master_data_model as D
 from pycopancore.runners import Runner
 
 from pylab import plot, gca, show, figure, subplot, gca, semilogy, legend

@@ -12,9 +12,9 @@
 from time import time
 from numpy import random
 import numpy as np
-import pycopancore.models.our_model as M
+from pycopan_more.models import our_model as M
 # import pycopancore.models.only_copan_global_like_carbon_cycle as M
-from pycopancore import master_data_model as D
+from pycopancore.data_model import master_data_model as D
 from pycopancore.runners import Runner
 
 # import plotly.plotly as py

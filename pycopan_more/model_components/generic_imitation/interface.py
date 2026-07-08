@@ -13,9 +13,9 @@
 from typing import List, Dict, Union, Tuple, Any
 from networkx import Graph, DiGraph
 
-from ... import master_data_model as D
-from ...data_model.master_data_model import I
-from ... import Variable
+from pycopancore.data_model import master_data_model as D
+from pycopancore.data_model.master_data_model import I
+from pycopancore.data_model import Variable
 
 
 class Model (object):

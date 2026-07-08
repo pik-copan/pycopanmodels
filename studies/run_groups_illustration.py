@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 import plotly.offline as py
 import plotly.graph_objs as go
 
-import pycopancore.models.groups_seven_dwarfs as M
+from pycopan_more.models import groups_seven_dwarfs as M
 from pycopancore.runners.runner import Runner
 
 # from studies import plot_multilayer as pm

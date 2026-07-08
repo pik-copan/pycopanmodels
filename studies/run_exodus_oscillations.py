@@ -26,7 +26,7 @@ import plotly.offline as py
 import plotly.graph_objs as go
 from matplotlib.pyplot import plot, gca, show, savefig
 
-import pycopancore.models.exodus as M
+from pycopan_more.models import exodus as M
 from pycopancore.runners.runner import Runner
 
 

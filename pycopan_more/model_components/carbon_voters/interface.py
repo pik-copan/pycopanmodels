@@ -14,7 +14,7 @@ remove these instructions.
 # License: BSD 2-clause license
 
 # TODO: use variables from the master data model wherever possible:
-from ... import master_data_model as D
+from pycopancore.data_model import master_data_model as D
 # TODO: uncomment and adjust of you need further variables from another
 # model component:
 # import ..BBB.interface as BBB
@@ -22,7 +22,7 @@ from .. import adaptive_voter_opinion_formation as avof
 from .. import majority_decision as md
 from .. import anderies_carbon_cycle as cc
 # TODO: uncomment and adjust only if you really need other variables:
-from ... import Variable
+from pycopancore.data_model import Variable
 
 
 class Model (object):

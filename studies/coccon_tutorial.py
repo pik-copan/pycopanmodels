@@ -13,10 +13,10 @@ from time import time
 from numpy import random, array, average, exp
 from pylab import show, subplots
 
-from pycopancore import master_data_model as D
+from pycopancore.data_model import master_data_model as D
 from pycopancore.runners import Runner
 
-import pycopancore.models.coccon.full as M
+from pycopan_more.models.coccon import full as M
 
 # first thing: set seed so that each execution must return same thing:
 

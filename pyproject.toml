@@ -1,0 +1,37 @@
+[project]
+name = "pycopan-more"
+version = "0.1.0"
+description = "Model and model component implementations as well as studies using the copan:CORE World-Earth modelling framework"
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [
+    {name = "COPAN team @ PIK", email = "core@pik-potsdam.de"}
+]
+license = "BSD-2-Clause"
+license-files = ["LICENSE"]
+dependencies = [
+    "numpy>=1.11.0",
+    "scipy>=0.17.0",
+    "sympy>=1.0",
+    "python-louvain>=0.9",
+    "profilehooks",
+    "pytest-cov>=2.5.1",
+    "numba",
+    "pycopancore @ git+https://github.com/pik-copan/pycopancore.git",
+    "matplotlib>=3.11.0",
+    "plotly>=6.8.0",
+    "networkx>=3.6.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["pycopan_more"]
+
+[project.urls]
+Repository = "https://github.com/pik-copan/pycopanmodels"
+
+[project.optional-dependencies]
+dev = [
+    "pylama",
+    "pylama_pylint",
+    "pylint"
+]

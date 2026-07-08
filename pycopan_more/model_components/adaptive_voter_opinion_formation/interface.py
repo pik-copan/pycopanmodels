@@ -14,13 +14,12 @@ remove these instructions.
 # License: BSD 2-clause license
 
 # TODO: use variables from the master data model wherever possible:
-from ... import master_data_model as D
+from pycopancore.data_model import master_data_model as D
 # TODO: uncomment and adjust of you need further variables from another
 # model component:
 # import ..BBB.interface as BBB
 # TODO: uncomment and adjust only if you really need other variables:
-from ... import Variable  # used for opinion here, maybe that should be included in the master data model? But I wouldn't know how? something like discrete opinion
-from ..base import interface as baseI
+from pycopancore.data_model import Variable  # used for opinion here, maybe that should be included in the master data model? But I wouldn't know how? something like discrete opinion
 
 
 class Model (object):
